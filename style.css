@@ -1,0 +1,24 @@
+caption{
+    text-decoration: double;
+}
+table{
+    width: 70%;
+    height: 60%;
+}
+
+th{
+    text-align: center;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1dvh;
+    margin: 1dvh;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+  

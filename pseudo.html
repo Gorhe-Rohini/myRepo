@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Classes</title>
+</head>
+<style>
+
+.btn{
+    text-align: center;
+    text-shadow: 9px;
+    border-radius: 20px solid black;
+    height: 50px;
+    width: 90px;
+    box-shadow: rgb(62, 25, 93);
+}
+
+.btn:hover {
+  background-color: rgb(20, 218, 20);
+}
+
+.btn:hover {
+  color: rgb(197, 14, 99);
+}
+
+.btn:active {
+  color: blue;
+}
+h3::first-line{
+  color: green;
+  text-decoration: solid;
+}
+
+h4::first-letter{
+  color: blue;
+  font-size: xx-large;
+}
+
+p{
+  overflow-x: scroll;
+}
+
+div{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a:link {
+  color: rgb(250, 14, 14);
+}
+
+a:visited {
+  color: rgb(11, 199, 11);
+}
+
+a:hover {
+  color: rgb(252, 36, 177);
+}
+
+a:active {
+  color: rgb(8, 8, 214);
+}
+</style>
+</head>
+<body>
+
+<h2>Psuedo Classes</h2>
+
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+    Voluptates mollitia tempore reprehenderit natus placeat minima consectetur ipsum. Natus, rem nihil quas, ea aperiam recusandae atque, odit dicta amet quos non.
+</p>
+
+<a href="https://www.google.com/">google</a>
+<br><br>
+<button class="btn">Submit</button>
+
+
+<div class="container" style="display: flex;">
+<div >Rohini</div>
+<div>Gorhe</div>
+</div>
+</body>
+</html>
+

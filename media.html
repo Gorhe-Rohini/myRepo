@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        .box{
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            color: aliceblue;
+            display: none;
+        }
+        @media screen and (max-width:300px){
+            #box1{
+                background-color: pink;
+                display: block;
+            }
+        }
+
+        @media screen and (min-width:300px) and (max-width:500px){
+            #box2{
+                background-color: yellow;
+                display: block;
+            }
+        
+        }
+        @media screen and (min-width:500px)and (max-width:700px){
+            #box3{
+                background-color: blue;
+                display: block;
+                
+            }
+
+        }
+        @media screen and (min-width:700px)and (max-width:1000px){
+            #box4{
+                background-color: green;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="box" id="box1">Iphone</div>
+   <div class="box" id="box2">Tablet</div>
+   <div class="box" id="box3">Laptop</div>
+   <div class="box" id="box4">Computer</div>
+   
+</body>
+</html>

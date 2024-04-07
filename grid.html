@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+
+    <style>
+        .grid-container {
+            padding: 10px;
+            margin: 20px;
+            height: 190px;
+            width: 200px;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 200px 200px;
+            grid-auto-rows: 150px;
+           
+            gap: 20px;
+        }
+
+        .grid-item1 {
+
+            background-color: rgb(212, 32, 32);
+            
+        }
+
+        .grid-item2 {
+            background-color: rgb(22, 208, 22);
+        }
+
+        .grid-item3 {
+            background-color: rgb(199, 234, 6);
+        }
+
+        .grid-item4 {
+            background-color: rgb(226, 30, 161);
+            grid-row: 1/2;
+        }
+
+        .grid-item5 {
+            background-color: rgb(92, 24, 210);
+            grid-row: 4/3;
+        
+        }
+
+        .grid-item6 {
+            background-color: rgb(224, 129, 27);
+            grid-row: 4/5
+        }
+
+        .grid-item7 {
+            background-color: rgb(22, 173, 207);
+        
+        }
+
+      /*  .btn {
+            border-radius: 50%;
+            align-items: center;
+        }*/
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item1">Item 1</div>
+        <div class="grid-item2">Item 2</div>
+        <div class="grid-item3">Item 3</div>
+        <div class="grid-item4">Item 4</div>
+        <div class="grid-item5">Item 5</div>
+        <div class="grid-item6">Item 6</div>
+        <div class="grid-item7">Item 7</div>
+    </div>
+      <!--- <button class="btn">Submit</button>-->
+
+    
+</body>
+
+</html>
